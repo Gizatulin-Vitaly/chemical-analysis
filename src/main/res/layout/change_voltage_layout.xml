@@ -30,7 +30,8 @@
         app:layout_constraintBottom_toBottomOf="@id/score_select_voltage"
         app:layout_constraintStart_toEndOf="@id/select_voltage"
         app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/my_violet" />
+        app:tint="@color/my_violet"
+        android:contentDescription="@string/openList" />
 
 
     <com.google.android.material.textview.MaterialTextView
@@ -41,7 +42,7 @@
 
         android:text="@string/voltage_0_5_ma"
         android:textColor="@color/durty_white"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:fontFamily="sans-serif"
         app:layout_constraintEnd_toEndOf="parent"
@@ -145,12 +146,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="Автор: Гизатулин Виталий"
+        android:text="@string/VitalyGizatulin"
         android:textColor="@color/durty_white"
-        android:textSize="10sp"
+        android:textSize="11sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/constraint_voltage_420" />
+        app:layout_constraintTop_toBottomOf="@id/constraint_voltage_420"
+        tools:ignore="SmallSp" />
 
 
 

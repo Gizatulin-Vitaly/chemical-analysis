@@ -76,7 +76,7 @@
             android:gravity="center"
             android:text="ТАИ"
             android:textColor="@color/durty_white"
-            android:textSize="64dp"
+            android:textSize="64sp"
             app:layout_constraintBottom_toTopOf="@id/resultButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
