@@ -137,7 +137,7 @@
                     app:layout_constraintStart_toStartOf="@id/scale_text"
                     app:layout_constraintTop_toTopOf="parent"
                     app:tint="@drawable/selected_text_color"
-                    android:contentDescription="Узнать покаания датчика" />
+                    android:contentDescription="Узнать показания датчика" />
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/scale_text"
