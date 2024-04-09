@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Theme.ChemicalAnalisys" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/my_violet</item>
