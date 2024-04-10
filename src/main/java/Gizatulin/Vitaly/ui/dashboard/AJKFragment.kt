@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import Gizatulin.Vitaly.databinding.FragmentDashboardBinding
+import Gizatulin.Vitaly.databinding.AjkLayoutBinding
 
 class AJKFragment : Fragment() {
 
-    private var _binding: FragmentDashboardBinding? = null
+    private var _binding: AjkLayoutBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -25,13 +25,9 @@ class AJKFragment : Fragment() {
         val AJKViewModel =
             ViewModelProvider(this).get(AJKViewModel::class.java)
 
-        _binding = FragmentDashboardBinding.inflate(inflater, container, false)
+        _binding = AjkLayoutBinding.inflate(inflater, container, false) // Исправлено на правильное имя привязки макета
         val root: View = binding.root
 
-        val textView: TextView = binding.textDashboard
-        AJKViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
         return root
     }
 

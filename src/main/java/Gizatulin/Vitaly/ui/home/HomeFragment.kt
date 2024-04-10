@@ -242,7 +242,7 @@ class HomeFragment : Fragment() {
                 )
                 binding.resultTextView.text = "Остались пустые значения"
             } else {
-                binding.resultTextView.text = String.format("%.2f", resultTextView.toDouble())
+                binding.resultTextView.text = String.format("%.3f", resultTextView.toDouble())
                 binding.resultTextView.setTextColor(
                     ContextCompat.getColor(
                         requireContext(),

@@ -2,7 +2,7 @@
     <string name="app_name">Chemical Analisys</string>
     <string name="title_home">Конвертор</string>
     <string name="title_dashboard">АЖК</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_notifications">Разработка</string>
     <string name="calculate">Расчитать</string>
 
     <string name="voltage_output_text">Токовый выход:</string>

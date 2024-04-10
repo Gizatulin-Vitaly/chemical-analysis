@@ -26,7 +26,6 @@
                 android:id="@+id/titleScaleSensor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily=""
                 android:gravity="center"
                 android:text="Шкала датчика"
                 android:textColor="@color/durty_white"
@@ -53,6 +52,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Начало шкалы"
+                    android:drawableEnd="@drawable/up"
                     android:inputType="number"
                     android:textColor="@color/durty_white" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -78,6 +78,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:layout_constrainedHeight="true"
+                    android:drawableEnd="@drawable/finish"
                     android:hint="Конец шкалы"
                     android:inputType="number"
                     android:textColor="@color/durty_white" />
@@ -144,6 +145,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="показания датчика"
+                    android:gravity="center"
                     android:textColor="@drawable/selected_text_color"
                     android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
